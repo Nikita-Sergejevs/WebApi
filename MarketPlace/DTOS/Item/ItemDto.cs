@@ -1,10 +1,9 @@
-namespace MarketPlace.Models
+namespace MarketPlace.Dtos.Item
 {
-    public class Item
+    public class ItemDto
     {
         public int Id { get; set; }
         public double Price { get; set; }
         public string Name { get; set; } = String.Empty;
-        public List<Review> Reviews { get; set; } = new List<Review>();
     }
 }
